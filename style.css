@@ -1,6 +1,18 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
-    color: white;
-    padding: 128px 16px;
+  background-color: black;
+  color: white;
+  padding: 128px 16px;
+}
+
+.flex-section {
+  display: flex;
+  align-items: up;
+  justify-content: left;
+}
+
+.section {
+  display: flex;
+  align-items: up;
+  justify-content: left;
 }
